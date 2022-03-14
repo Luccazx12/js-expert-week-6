@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client:dev": "nodemon client.js",
+    "server:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
